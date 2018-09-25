@@ -49,11 +49,15 @@ def turn_count(board)
       counter +=1
     end
   end
+<<<<<<< HEAD
   return counter
+=======
+>>>>>>> 04fdd84de800b54b553d0bb3010684d868684254
 end
 
 def current_player(board)
 turn_count(board) 
+<<<<<<< HEAD
   turn_count(board) % 2 == 0 ? "X" :"O"
 end
 
@@ -73,3 +77,14 @@ end
 
 
 
+=======
+  if turn_count(board) % 2 == 0 
+    puts "X"
+  elsif turn_count(board) % 2 == nil
+    puts "X"
+  else 
+    puts "O"
+  end
+end
+
+>>>>>>> 04fdd84de800b54b553d0bb3010684d868684254
